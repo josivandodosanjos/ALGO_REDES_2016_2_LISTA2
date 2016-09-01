@@ -1,0 +1,25 @@
+ALGORITMO "aluno"
+
+DECLARE N1, N2, N3, M REAL
+
+ESCREVA “Digite a primira nota:”
+ESCREVA “Digite a segunda nota:”
+ESCREVA “Digite a terceira nota:”
+
+LEIA N1, N2, N3
+
+M <- (N1 + N2 + N3)/3
+
+SE M <= 4
+
+ENTÃO ESCREVA “Reprovado”
+
+SE M > 5 E < 7
+
+ENTÃO ESCREVA “Prova Final”
+
+SENÃO ESCREVA “Aprovado”
+
+FIM_ALGORITMO.
+
+
